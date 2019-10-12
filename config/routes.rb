@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   root 'welcome#page'
   get 'about', to: 'welcome#about'
 
+  resources :articles
+
 end
